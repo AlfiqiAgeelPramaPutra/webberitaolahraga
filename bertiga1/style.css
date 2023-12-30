@@ -1,0 +1,315 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.atas {
+  background: #00A871 ;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.logo{
+  float:right;
+  width:120px;
+  height:60px;
+  margin-right: auto;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+
+.logo:hover {
+  transform: rotate(2deg);
+}
+
+.daftar {
+  margin-right: 10px;
+  border: none;
+  font-size: 12px;
+  padding: 8px 15px;
+  background: #63727C;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.daftar:hover {
+  color:rgb(157, 255, 0);
+}
+
+.login {
+  margin-right: 10px;
+  border: none;
+  font-size: 12px;
+  padding: 8px 15px;
+  background: #63727C;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login:hover {
+  color:rgb(157, 255, 0);
+}
+
+.form{
+  margin-right: 280px;
+}
+
+.search {
+  padding:8px 100px;
+  background:#eaeaea;
+  border:0px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.button {
+  margin-right: 10px;
+  position:relative;
+  padding:8px 15px;
+  border:0px solid #53bd84;
+  background-color:#63727C;
+  color:#fafafa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  color:rgb(157, 255, 0);
+}
+
+@font-face {
+  font-family: "Beriga";
+  src: url('font/Beriga-Regular.ttf');
+}
+
+header h1.title{
+  text-align: center;
+  font-family: Beriga; 
+  font-size: 50px;
+}
+header h3.desc{
+  text-align: center;
+  font-family: Beriga; 
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+body {
+    width: 100%; 
+    margin: auto;
+}
+
+a:link {
+  color: rgb(157, 255, 0);
+}
+a:visited {
+  color: #FFFFFF;
+}
+#navigation a:hover {
+  color: #000000;
+}
+a:active {
+  color: red;
+}
+p {
+  font-size: 110%;
+  color: black;
+}
+#contents {
+    float: center;
+}
+#navigation ul {
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  background-color: #63727C;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+#navigation li {
+  float: left;
+}
+#navigation li a {
+  margin-left: 120px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#navigation li a:hover {
+  background-color: #00A871;
+  transition-duration: 2s;
+}
+
+.banner
+{
+    margin-bottom: 20px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color: #00A871;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah
+{
+    width: 650px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: #00A871;
+    margin-bottom: 0;
+}
+ 
+.tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-pesan
+{
+    background-color: darkorange;
+}
+
+.tombol-beli
+{
+  background-color: #00A871;
+}
+ 
+.tombol-lengkap
+{
+    background-color: darkorange;
+}
+ 
+.menu-kanan
+{
+    width: 330px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+footer
+{
+    clear: both;
+    background-color: #00A871;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+
+.berita {
+  margin-right: 50px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+ 
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-artikel ul li a:hover
+{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  background-color: #00A871;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.page p{
+  margin-left: 10px;
+}
